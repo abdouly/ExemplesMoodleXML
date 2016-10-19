@@ -1,0 +1,38 @@
+git commit -a - m "modig "
+ le -a permet de commiter que les fichiers modifiés.
+
+ 
+gitk : permet d'afficher toutes les traces du projet ;) 
+
+git commit -v .
+	-v permet d'afficher beaucoup plus de details sur le projet. yes git est magique
+	
+git config --global -l 
+	pour verifier les configurations
+	
+git branch -a 
+	afficher toutes les branches distantes 
+	
+git branch dev/truc creer une branch
+git checkout dev/truc bascule sur une branch
+
+ces 2 dernières lignes sont identitques à git checkout -b dev truc
+
+commment envoyer la branche locale dev sur la branche distante
+origine/dev ?
+
+prémière fois : git push origin dev 
+		/ git push -u origin dev
+autres fois : git push origin dev
+		/git push
+		
+
+		recapitulatif 
+git checkout -v maBranch
+git add -u fichiers à ajouter 
+git commit -m "commentaires"
+git checkout master // pour revenir sur la branche master
+git pull
+git push origin maBranch
+git merge maBranch
+git push
