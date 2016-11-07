@@ -36,3 +36,12 @@ git pull
 git push origin maBranch
 git merge maBranch
 git push
+
+////////////////
+git branch nom_branch
+git checkout nom branch
+
+git clone url
+git remote origin url
+
+// et après tout ce que s'en suit ;)
